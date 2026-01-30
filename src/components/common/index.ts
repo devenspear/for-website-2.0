@@ -1,4 +1,3 @@
 export { Button } from './Button';
 export { Card, CardHeader, CardContent, CardFooter } from './Card';
-export { Layout } from './Layout';
-export { Modal } from './Modal';
+export { PublicLayout } from './PublicLayout';

@@ -1,45 +1,27 @@
 {
   "name": "for-website-2.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "postinstall": "prisma generate",
-    "db:push": "prisma db push",
-    "db:studio": "prisma studio",
-    "test:api": "tsx scripts/test-api.ts"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.36.9",
-    "@prisma/adapter-pg": "^7.3.0",
-    "@prisma/client": "^7.3.0",
-    "@vercel/postgres": "^0.10.0",
-    "date-fns": "^4.1.0",
-    "inngest": "^3.49.3",
     "lucide-react": "^0.562.0",
     "next": "16.1.4",
-    "pg": "^8.17.2",
-    "prisma": "^7.3.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "recharts": "^3.7.0",
-    "zod": "^4.3.5",
-    "zustand": "^5.0.10"
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
-    "@types/pg": "8.11.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "dotenv-cli": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.4",
     "tailwindcss": "^4",
-    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
